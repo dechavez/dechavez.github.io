@@ -1,0 +1,14 @@
+/*body {
+	background-color: #333333;
+	font-family: Arial;
+	color: linen;
+}*/
+
+body {
+	background-color: #333333;
+}
+
+h1, h2, p {
+	color: linen;
+	font-family: Arial;
+}

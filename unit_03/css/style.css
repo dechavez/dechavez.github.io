@@ -1,0 +1,35 @@
+body {
+text-align: center;
+/*  background: url("http://i.imgur.com/q0FaaAk.jpg");
+  background-size: cover;*/
+  background-color: #333;
+  color: #fff;
+  font-family: Helvetica;
+}
+
+
+h1, h2 {
+	color: red;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #fff;
+}
+
+section {
+	background-color: #ffffff;
+	margin: 0;
+	background: url("/images/ninjas.jpg");
+    background-size: cover;
+}
+
+#banner {
+	width: 600px;
+	margin: auto;
+}
+
+#slogan {
+	color: green;
+	text-align: center;
+}

@@ -8,26 +8,22 @@ text-align: center;
 }
 
 
-h1, h2 {
+h1 {
 	color: red;
 	font-family: Arial, sans-serif;
 }
 
 header {
+	height: 125px;
+	width: 100%;
 	background-color: #fff;
-}
-
-section {
-	background-color: #ffffff;
 	margin: 0;
-	background: url("/images/ninjas.jpg");
-    background-size: cover;
+	background: url("https://dechavez.github.io/unit_03/images/ninjas.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
 }
 
-#banner {
-	width: 600px;
-	margin: auto;
-}
 
 #slogan {
 	color: green;

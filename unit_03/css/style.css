@@ -1,31 +1,72 @@
 body {
-text-align: center;
-/*  background: url("http://i.imgur.com/q0FaaAk.jpg");
-  background-size: cover;*/
-  background-color: #333;
-  color: #fff;
-  font-family: Helvetica;
+	text-align: left;
+	background-color: #333;
+	color: #fff;
+	font-family: Helvetica;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 21px;
 }
 
+header {
+	height: 150px;
+	margin: 0px;
+	background: url("https://dechavez.github.io/unit_03/images/ninjas.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    vertical-align: middle;
+	background-color: #fff;
+	padding-left: 25px;
+	padding-top: 25px;
+}
 
 h1 {
 	color: red;
 	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 0px;
 }
 
-header {
-	height: 125px;
-	width: 100%;
-	background-color: #fff;
-	margin: 0;
-	background: url("https://dechavez.github.io/unit_03/images/ninjas.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    vertical-align: middle;
+h2 {
+	color: white;
+	background-color: red;
+	text-transform: uppercase;
+	padding: 5px;
+	font-size: 18px;
 }
 
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+ul {
+	margin: 0px;
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: white;
+	background-color: red;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+.newSection {
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 50px;
+}
 
 #slogan {
-	color: green;
-	text-align: center;
+	color: #333;
+	text-align: left;
+	font-size: 14px;
 }

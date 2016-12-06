@@ -77,10 +77,11 @@ aside {
 	height: 500px;
 	width: 100%;
 	margin: auto;
-	background: url("https://dechavez.github.io/unit_03/images/ninjas.png");
+	background: url("https://dechavez.github.io/unit_04/images/food-tea-sugar-sweets.jpg");
     background-repeat: no-repeat;
     background-position: center right;
     vertical-align: middle;
+	background-size: cover;
 }
 
 /* -- I N T R O --*/

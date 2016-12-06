@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+
+body {
+	background-color: #f1f1f1;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 100%;
+	background-color: cornflowerblue;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* -- H E A D E R -- */
+
+header {
+	background-color: #fff;
+}
+
+#header_inside {
+	width: 1100px;
+	height: 120px;
+	margin: auto;
+	background-color: #fff;
+}
+
+#logo {
+	height: 110px;
+	background-color: aquamarine;
+	float: left;
+	margin-right: 25px;
+	clear: none;
+}
+
+nav {
+	height: 30px;
+	background-color: #fff;
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+aside {
+	float: right;
+	background-color: #fff;
+}
+
+
+/* -- S L I D E R --*/
+
+#slider {
+	background-color: #222;
+	height: 500px;
+	width: 100%;
+	margin: auto;
+	background: url("https://dechavez.github.io/unit_03/images/ninjas.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    vertical-align: middle;
+}
+
+/* -- I N T R O --*/
+#intro {
+	width: 100%;
+	background-color: #fff;
+	margin: 0px;
+}
+
+#intro_inner {
+	height: 250px;
+	width: 1100px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.intro_main {
+	width: 700px;
+	height: auto;
+	background-color: #fff;
+	padding: 15px;
+	float: left;
+}
+
+.intro_side {
+	width: 300px;
+	height: auto;
+	background-color: #fff;
+	padding: 15px;
+	float: right;
+}
+
+/* -- TEA MENU --*/
+#tea_menu {
+	width: 100%;
+	background-color: #cecece;
+	margin: 0px;
+	text-align: center;
+}
+
+#menu_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #cecece;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tea {
+	width: 500px;
+	height: auto;	
+	margin: auto;
+	background-color: #fff;
+}
+
+.tea table {
+	width: 85%;
+	border: 0;
+	vertical-align: top;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.tea th, td {
+	border-top: solid thin #cecece;
+	height: 15px;
+	padding: 10px;
+}
+
+
+.tea table tr:hover {
+	background-color: #f5f5f5;
+}
+
+.item {
+	text-align: left;
+	vertical-align: top;
+	width: 80%;
+}
+
+.price {
+	text-align: right;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+
+/* -- TEA 101 --*/
+#tea101 {
+	width: 100%;
+	background-color: #444;
+	margin: 0px;
+}
+
+.tea101_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #444;
+	text-align: center;
+}
+
+.teainfo {
+	width: 300px;
+	height: auto;
+	background-color: #444;	
+	display: inline-block;
+	text-align: center;
+	padding: 25px 15px 25px 15px;
+	margin: 15px 10px 15px 10px;
+	color: #fff;
+}
+
+.teainfo a {
+	color: #67AF87;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* -- ABOUT US --*/
+#aboutus {
+	width: 100%;
+	background-color: #fff;
+	margin: 0px;
+}
+
+.aboutus_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #fff;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+.experts {
+	width: 200px;
+	height: auto;
+	background-color: #fff;	
+	display: inline-block;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+	margin: 10px;
+}
+
+/* -- LOCATION --*/
+#location {
+	background-color: #222;
+	height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+#location_inner {
+	width: 100%;
+    margin: 0 auto; 
+	background-color: #fff;
+	position: relative;
+}
+
+.area {
+	background-color: #fff;
+	width: 300px;
+	height: 300px;
+	vertical-align: middle;
+	margin-top: 25px;
+	position: absolute;
+	top: 50%;
+    left: 60%;	
+}
+
+/* -- C O N T A C T  F O R M --*/
+#contactform {
+	background-color: #fff;
+	height: 300px;
+	width: 100%;
+}
+
+#contactform_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #fff;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+/* -- FOOTER --*/
+footer {
+	background-color: #cecece;
+	height: 60px;
+	width: 100%;
+}
+
+#legal {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #cecece;
+	text-align: center;
+	padding: 5px;
+	font-size: 10px;
+	color: #777;
+}

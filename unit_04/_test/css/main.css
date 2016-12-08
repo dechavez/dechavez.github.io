@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	background-color: #f1f1f1;
+	color: #333;
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+section {
+	width: 100%;
+	background-color: cornflowerblue;
+}
+
+/* -- H E A D E R -- */
+
+header {
+	background-color: #fff;
+}
+
+#header_inside {
+	max-width: 1100px;
+	width: 100%;
+	height: 120px;
+	margin: auto;
+	background-color: mediumvioletred;
+}
+
+#logo {
+	height: 110px;
+	background-color: aquamarine;
+	float: left;
+	margin-right: 25px;
+}
+
+nav {
+	height: 30px;
+	background-color: #c9282d;
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+aside {
+	float: right;
+	background-color: #c234c2;
+}
+
+
+/* -- S L I D E R --*/
+
+#slider {
+	background-color: #cecece;
+	width: 100%;
+}
+
+/* -- I N T R O --*/
+#intro {
+	width: 100%;
+	background-color: red;
+}
+
+#intro_inner {
+	height: 250px;
+	width: 1100px;
+	margin: auto;
+	background-color: darkolivegreen;
+}
+
+.intro_main {
+	width: 700px;
+	height: auto;
+	background-color: blueviolet;
+	padding: 15px;
+	float: left;
+}
+
+.intro_side {
+	width: 300px;
+	height: auto;
+	background-color: #5C490E;
+	padding: 15px;
+	float: right;
+}
+
+/* -- TEA MENU --*/
+#tea_menu {
+	width: 100%;
+	background-color: rebeccapurple;
+	text-align: center;
+}
+
+#menu_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: palevioletred;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tea {
+	width: 500px;
+	height: auto;	
+	margin: auto;
+	background-color: floralwhite;
+}
+
+.tea table {
+	width: 85%;
+	border: 0;
+	vertical-align: top;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.tea th, td {
+	border-top: solid thin #cecece;
+	height: 15px;
+	padding: 10px;
+}
+
+
+.tea table tr:hover {
+	background-color: #f5f5f5;
+}
+
+.item {
+	text-align: left;
+	vertical-align: top;
+	width: 80%;
+}
+
+.price {
+	text-align: right;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+
+/* -- TEA 101 --*/
+#tea101 {
+	width: 100%;
+	background-color: mediumseagreen;
+	margin: 0px;
+}
+
+.tea101_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: goldenrod;
+	text-align: center;
+}
+
+.teainfo {
+	width: 300px;
+	height: auto;
+	background-color: navajowhite;	
+	display: inline-block;
+	text-align: center;
+	padding: 25px 15px 25px 15px;
+	margin: 15px 10px 15px 10px;
+}
+
+/* -- ABOUT US --*/
+#aboutus {
+	width: 100%;
+	background-color: darkslateblue;
+	margin: 0px;
+}
+
+.aboutus_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: rosybrown;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+.experts {
+	width: 200px;
+	height: auto;
+	background-color: navajowhite;	
+	display: inline-block;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+	margin: 10px;
+}
+
+/* -- LOCATION --*/
+#location {
+	background-color: #222;
+	height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+#location_inner {
+	width: 100%;
+    margin: 0 auto; 
+	background-color: deeppink;
+	position: relative;
+}
+
+.area {
+	background-color: lightpink;
+	width: 300px;
+	height: 300px;
+	vertical-align: middle;
+	margin-top: 25px;
+	position: absolute;
+	top: 50%;
+    left: 60%;	
+}
+
+/* -- C O N T A C T  F O R M --*/
+#contactform {
+	background-color: #75750A;
+	height: 300px;
+	width: 100%;
+}
+
+#contactform_inner {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: #cecece;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+/* -- FOOTER --*/
+footer {
+	background-color: mediumseagreen;
+	height: 60px;
+	width: 100%;
+}
+
+#legal {
+	height: auto;
+	width: 1100px;
+	margin: auto;
+	background-color: lightcoral;
+	text-align: center;
+	padding: 5px;
+	font-size: 10px;
+}

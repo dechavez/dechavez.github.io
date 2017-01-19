@@ -44,6 +44,7 @@ section {
 
 .small {
 	font-size: 12px;
+	line-height: 12px;
 }
 
 
@@ -253,6 +254,7 @@ aside a:hover {
 	border-top: solid thin #cecece;
 	height: 15px;
 	padding: 7px;
+	line-height: 19px;
 }
 
 

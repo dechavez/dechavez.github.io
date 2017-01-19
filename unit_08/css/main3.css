@@ -74,9 +74,7 @@ header {
 
 #navbox {
 	width: 100%;
-	max-width: 1100px;
 	min-height: 10px;
-	margin: auto;
 	background-color: #48a691;
 }
 
@@ -87,6 +85,8 @@ nav {
 	text-transform: uppercase;
 	font-weight: 200;
 	font-size: 16px;
+	max-width: 1100px;
+	margin: auto;
 }
 
 nav a {
@@ -103,6 +103,14 @@ nav a:hover {
   background-color: #e0f4f0;
   color: #48a691;
 	
+}
+
+.static {
+	position: fixed; 
+	top: 0;  
+	z-index: 9999;
+	width: 100%;
+	left: 0;
 }
 
 aside {

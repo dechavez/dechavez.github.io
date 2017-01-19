@@ -14,7 +14,7 @@
 
 <body>
 <div id="wrapper">
-<header>
+<header id="header">
 	<div id="header_inside" class="clearfix">
 		<a name="home"></a>
 		<div id="logo" class="clearfix">
@@ -407,7 +407,21 @@ $(".owl-carousel").owlCarousel({
 	autoWidth: false,
 	animateOut: 'fadeOut'
 });
+	$(window).bind('scroll', function() {
+	   console.log('windowscroll');
+		var headerHeight = $('#header').outerHeight();
+		console.log(headerHeight);
+			 if ($(window).scrollTop() >= headerHeight) {
+				 console.log('addingfixedclass');
+				 $('#navbox').addClass('static');			 
+			 }
+			 else {
+				 $('#navbox').removeClass('static');
+			 }
+		});
 });
 </script>
+
+
 </body>
 </html>

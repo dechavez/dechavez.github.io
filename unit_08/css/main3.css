@@ -221,6 +221,9 @@ aside a:hover {
 	color: #ffffff;
 	background-color: #328b77;
 }
+.phone {
+margin-right: 10px;
+}
 
 /* -- T E A  M E N U --*/
 #tea_menu {
@@ -558,6 +561,9 @@ footer {
 	}
 	
 	.teainfo {
+	clear: both;
+}
+	.phone {
 	clear: both;
 }
 	

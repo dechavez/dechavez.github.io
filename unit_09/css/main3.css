@@ -25,7 +25,15 @@ h2 {
 	text-transform: uppercase;
 	font-weight: 100;
 	font-size: 36px;
-	margin-bottom: 15px;
+	margin: 25px 0;
+}
+
+h3 {
+	margin: 30px 0px;
+}
+
+p {
+	margin: 10px 0px;
 }
 
 img {
@@ -131,6 +139,13 @@ aside a:hover {
 	border-bottom: 2px solid #48a691;
 }
 
+a.phone {
+  color: #333;
+  text-decoration: none;
+  background-color: #ffff;
+  padding: 0px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -169,6 +184,7 @@ aside a:hover {
 #intro {
 	width: 100%;
 	background: white;
+	padding: 20px 0px;
 }
 
 #intro_inner {
@@ -220,9 +236,6 @@ aside a:hover {
 #intro_side a:hover {
 	color: #ffffff;
 	background-color: #328b77;
-}
-.phone {
-margin-right: 10px;
 }
 
 /* -- T E A  M E N U --*/
@@ -294,7 +307,7 @@ margin-right: 10px;
 	text-align: right;
 	vertical-align: top;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .weight {
@@ -310,10 +323,10 @@ margin-right: 10px;
 	width: 100%;
 	background-color: #444;
 	margin: 0px;
+	padding: 15px 0px;
 }
 
 .tea101_inner {
-	height: auto;
 	width: 100%;
 	max-width: 1100px; 
 	margin: auto;
@@ -347,31 +360,28 @@ margin-right: 10px;
 }
 
 .aboutus_inner {
-	height: auto;
 	width: 100%;
 	max-width: 1100px;
 	margin: auto;
 	background-color: white;
 	text-align: center;
-	padding: 25px 0 25px 0;
+	padding: 25px;
 }
 
 .experts {
 	width: 200px;
 	height: auto;
-	background-color: white;	
 	display: inline-block;
 	text-align: center;
 	padding: 0px 10px 20px 10px;
 	margin: 10px;
+	z-index: 10;
 }
 
 .circular {
   border-radius: 50%;
-	margin-bottom: 10px;
+  margin-bottom: 15px;
 }
-
-
 
 /* -- P O P U P  N A M E S -- */
 .box {
@@ -383,6 +393,7 @@ margin-right: 10px;
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
+  z-index: 100;
 }
 
 .box img {
@@ -413,6 +424,7 @@ margin-right: 10px;
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+	z-index: 100;
 }
 .overlay:target {
   visibility: visible;
@@ -427,6 +439,7 @@ margin-right: 10px;
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+	z-index: 100;
 }
 
 .popup img {
@@ -438,10 +451,11 @@ margin-right: 10px;
   margin-top: 0;
   color: #48a691;
 }
+
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 10px;
+  right: 20px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
@@ -454,6 +468,7 @@ margin-right: 10px;
 .popup .content {
   max-height: 30%;
   overflow: auto;
+	margin-top: 15px;
 }
 
 
@@ -466,22 +481,40 @@ margin-right: 10px;
 	padding: 20px;
 }
 
-#location_inner {
-	width: 250px;
-	height: 100px;
-    margin: 20px auto; 
-	background-color: #fff;
-	z-index: 10;
-}
-
 #map {
 	width: 100%;
 	height: 500px;
-	
+	z-index: 1;
+}
+
+#map_inner {
+	width: 25%;
+    margin: 20px auto; 
+	padding: 15px;
+	background-color: #fff;
+	z-index: 100;
+}
+
+
+#bodyContent h3 {
+	display: block;
+	font-weight: bold;
+	background-color:  #48a691;
+	color: white;
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+
+#bodyContent p {
+	padding: 5px;
+}
+
+#bodyContent hr {
+	color:  #48a691;
 }
 
 .teal {
-	
+	color: #48a691;
     overflow: hidden;
     height: 100%;
     z-index: 2;
@@ -585,7 +618,7 @@ input[type=submit]:hover {
 	background-color: #2c8571;
 }
 
-.submit {
+.submitform {
 	float: right;
 	width: 100%;
   }
@@ -593,18 +626,16 @@ input[type=submit]:hover {
 /* -- F O O T E R --*/
 footer {
 	background-color: #cecece;
-	height: 60px;
 	width: 100%;
 }
 
 #legal {
-	height: auto;
 	width: 100%;
 	max-width: 1100px;
 	margin: auto;
 	background-color: #cecece;
 	text-align: center;
-	padding: 5px;
+	padding: 15px;
 	font-size: 10px;
 }
 
@@ -653,6 +684,7 @@ footer {
 		width: 100%;
 		font-size: 8px;
 		font-weight: 600;
+		z-index: 500;
 	}
 	
 	#intro_main {
